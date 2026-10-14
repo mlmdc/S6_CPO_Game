@@ -1,6 +1,5 @@
 # ignore ALL .log files
 *.log
-*.md
 
 #ignore les brouillons
 Brouillon.ipynb
