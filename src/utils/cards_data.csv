@@ -1,0 +1,289 @@
+Name;Character;png_link;cardtext;ltext;lindus;leco;lpop;lmoney;lback;rtext;rindus;reco;rpop;rmoney;class;rback
+PersoFemininTest;Perso Feminin Test;rnd1_ttsicon_00008_.png;Carte Test 1;perd 10 pour chaque;-10;-10;-10;-10;Affichage lback masc;gagne 10 pour chaque;10;10;10;10;Card;Affichage rback masc
+PersoMasculinTest;Perso Masculin Test;rnd1_ttsicon_00004_.png;Carte Test 2;gagne 20 pour chaque;20;20;20;20;affichage lback fem;perd 20 pour chaque;-20;-20;-20;-20;Card;Affichage rback fem
+elecUsines;default;default.png;Il nous faut une nouvelle centrale électrique pour les usines !;Centrale à charbon;25;-10;-10;0;La mise en place de la centrale a pollué les environs;Centrale nucléaire;25;0;-10;-10;Card;La construction a entraîné des coûts supplémentaires
+manqueDeGaz;default;default.png;Il n'y a plus assez de gaz pour des usines !;Fermer les centrales;-15;15;0;0;None;Importer du gaz étranger;15;0;0;-15;Card;L'import de gaz donne des envies aux industriels
+constrPipeline;default;default.png;Des industriels proposent de construire des pipelines pour importer plus de gaz;Refuser;-10;0;0;0;Le gaz est toujours acheminé par camions;Accepter;25;-15;0;0;Card;La construction des pipelines donnent envie aux industriels d'en construire plus
+manqueBudget;default;default.png;Il manque de l'argent pour boucler le budget;Augmenter les taxes;-10;0;-10;20;default lback;Baisser les dépenses publics;0;0;-15;15;Card;default rback
+mainOeuvreRobots;default;default.png;Les industriels manquent de main d'oeuvre;Plus de travail;10;0;-10;0;default lback;Plus de robots industriels;10;0;0;-10;Card;default rback
+mainOeuvreEtrangers;default;default.png;Les industriels manquent de main d'oeuvre ;Mieux payer les ouvriers;-10;0;10;0;default lback;Faire venir des étrangers;10;0;0;-10;Card;default rback
+mineForet;default;default.png;Un filon de métal rare a été découvert dans un parc protégé;Ne pas exploiter;-10;10;10;-10;default lback;Construire une mine;10;-10;-10;10;Card;default rback
+capitaleTransport;default;default.png;Les transports de la capitale sont saturés;Plus de routes;0;0;10;-10;default lback;Plus de transports en commun;0;10;0;-10;Card;default rback
+manqueTransportsNation;default;default.png;Les villes sont isolées entre elles;Plus de routes;0;-15;0;-15;default lback;Plus de trains;0;0;0;-15;Card;default rback
+manqueNourritureAgri;default;default.png;La nourriture vient à manquer;Financer l'agriculture;10;0;-10;-10;default lback;Importer de la nourriture;0;-10;10;-10;Card;default rback
+manqueNourritureMode;default;default.png;"Le rendement des champs va être mauvais. 
+Il faut faire quelque chose !";Du biologique !;-15;15;5;0;default lback;Des pesticides !;15;-15;0;0;Card;default rback
+manqueVerre;default;default.png;Nous utilisons trop de verres ! Il vient à manquer;Utiliser le sable des plages;10;-15;10;0;L'exploitation du sable a saccagé les plages;Recycler le verre;10;10;0;0;Card;None
+foretExploitation;default;default.png;Un grand projet d'exploitation vise une forêt du pays;Encourager le projet;10;0;0;10;default lback;La protéger ;0;10;10;0;Card;default rback
+envoleePrix;default;default.png;"Les prix de produits nécessaires s'envolent !
+Le peuple est en colère";Maintenir les prix;0;0;0;-20;default lback;Les laisser s'envoler;0;0;-20;0;Card;default rback
+produitFureur;default;default.png;Un produit national fait fureur tant chez nous qu'à l'international;Prioriser l'international;0;-15;-15;0;default lback;Prioriser les nationaux;-15;0;15;0;Card;default rback
+technoProd;default;default.png;Une nouvelle technologie industrielle semble prometteuse ! Devons-nous investir ?;Investir;0;0;0;0;default lback;Ignorer;0;0;0;0;Card;default rback
+manqueQualifies;default;default.png;Nous manquons de personnels qualifiés et nous devons en avoir;Investir dans la formation;10;0;10;-10;default lback;Attirer des étrangers qualifiés;0;0;10;-10;Card;default rback
+IApeur;default;default.png;Une nouvelle intelligence artificielle populaire parmi les industriels fait peur chez les gens;La favoriser;10;0;-15;10;default lback;L'interdire;-15;0;15;0;Card;default rback
+epidemie;default;default.png;Une épidemie de grippe frappe le pays;Ca va passer...;0;0;0;0;Ce n'est pas passé...;Soutenir le médical;0;0;0;0;Card;L'action rapide à permis de calmer l'épidemie
+prixElec;default;default.png;Le prix de l'électricité est devenu trop cher !;Mieux isoler les bâtiments;0;10;10;-10;default lback;Nouvelles centrales fossiles;10;-10;0;-10;Card;default rback
+manqueSecurite;default;default.png;Le peuple se plaint d'un manque de sécurité croissant;Renforcer la police;0;0;10;-10;default lback;Traffiquer les chiffres;0;0;-10;0;Card;default rback
+meilleurSalaire;default;default.png;La population demande de meilleurs salaires;Ignorer;0;0;-15;0;default lback;Encourager;-15;0;0;0;Card;default rback
+meilleurSalaire2;default;default.png;La population demande un meilleur salaire ;Payer les augmentations;0;0;15;-10;default lback;Forcer les augmentations;-10;0;15;0;Card;default rback
+taxationRiches;default;default.png;Des partis demandent de taxer les plus riches pour financer le budget;Accepter;-10;0;0;20;default lback;Ne pas taxer;0;0;10;-10;Card;default rback
+petitesEntreprises;default;default.png;Nos petites entreprises sont en difficultés. Elles demandent de l'aide;Soutenir;10;0;0;-10;default lback;Elles n'ont qu'à mieux se débrouiller !;-10;10;0;0;Card;default rback
+choixChomage;default;default.png;Nos précédents choix ont fait augmenter le chômage partout dans le pays;Radier des chômeurs pour les stats;0;0;-10;10;default lback;Ce n'est pas un problème;-10;0;-10;0;Card;default rback
+actionChomage2;default;default.png;Nos précédents choix ont créés du chômage à travers le pays;Les forcer à bosser;15;0;-15;5;default lback;Financer des grands projets d'état;5;0;15;-15;Card;default rback
+newPoisson;default;default.png;Une nouvelle grande réserve de poisson vient d'être découverte;L'exploiter;10;-15;0;10;default lback;La protéger;-15;15;0;0;Card;default rback
+partiDetournement;default;default.png;Une enquête a dévoilée qu'un parti détournait de l'argent public;Couvrir et prendre une partie;0;0;0;10;default lback;Dénoncer;0;0;10;0;Card;default rback
+subventionVertes;default;default.png;Qui notre projet de suventions doit-il aider ?;Les projets des industriels;15;-15;0;5;default lback;Les projets verts;0;20;0;5;Card;default rback
+consoLocal;default;default.png;Devons-nous encourager à consommer local ?;Non;15;-10;0;0;default lback;Oui;0;10;10;10;Card;default rback
+ageRetraites;default;default.png;Nous pouvons gagner du budget en reculant l'age de la retraite. Que faisons-nous ?;Reculer;15;0;-15;15;default lback;Avancer;-15;0;15;-15;Card;default rback
+monnaieVirtuelle;default;default.png;La banque nationale propose de créer une monnaie numérique;Refuser;0;0;0;0;None;La créer;0;0;0;0;Card;Les économistes ont peur d'une envolée spéculative sur la monnaie
+santeMentale1;default;default.png;Des associations demandent des initiatives pour la santé mentale de nos concitoyens;Ils n'en ont pas besoin;0;0;-15;0;default lback;Encourager;0;0;10;-10;Card;default rback
+catastrophe1;default;default.png;Une catastrophe naturelle a saccagée une partie du pays;Mobiliser les entreprises;-25;-15;0;-10;default lback;Mobiliser l'état;-15;-15;0;-25;Card;default rback
+rumeurInsulte;default;default.png;Une rumeur raconte que le roi voisin a insulté notre culture ! Que faisons-nous ?;Rappeler le diplomate;0;0;0;0;default lback;Ignorer l'affront;0;0;0;0;Card;default rback
+mauvaisInvest1;default;default.png;Mon instinct me dit qu'investir sur cette nouvelle entreprise nous rapportera beaucoup !;Investir;0;0;0;-15;L'entreprise était une arnaque;Ne pas investir;0;0;0;0;Card;L'entreprise a rapporté des millions
+mauvaisInvest2;default;default.png;Mon instinct me dit qu'investir sur cette nouvelle entreprise nous rapportera beaucoup !;Investir;0;0;0;15;L'entreprise a produit beaucoup d'argent;Ne pas investir;0;0;0;-5;Card;L'entreprise s'est écroulée sous la nouvelle pression financiere...
+droitTravail;default;default.png;Plusieurs compagnies fraudent sur le droit du travail;Fermer les yeux;10;0;-10;0;default lback;Punir;-10;0;0;10;Card;default rback
+loiTravail;default;default.png;Les grandes entreprises demandent d'autoriser le travail gratuit des handicapés;Refuser;-15;0;5;0;default lback;Autoriser;10;0;-10;5;Card;default rback
+loiTravail;default;default.png;Des grands industriels se disent étouffés par les nombreuses lois sur la sécurité au travail;Maintenir;-10;0;10;0;Les industriels se disent toujours étouffés;Abolir une partie;15;0;-10;10;Card;De nombreux morts tragiques frappent le pays
+lobbyPotVin;default;default.png;Un lobby vous propose une loi contre un pot-de-vin;Accepter;0;0;-10;10;Une enquête révêle votre arrangement;Refuser;0;0;10;-10;Card;Le public loue votre integrité
+annulerScience1;default;default.png;Notre programme scientifique nous coûte trop cher ! ;Le maintenir;0;0;0;0;default lback;Le fermer;0;0;0;0;Card;default rback
+diversification1;default;default.png;Nos matières premières viennent toutes d'un même bloc de pays !;Diversifier;0;0;0;0;default lback;Maintenir;0;0;0;0;Card;default rback
+diversification2;default;default.png;Nos matières premières viennent toutes d'un même bloc de pays !;Diversifier;0;0;0;0;default lback;Maintenir;0;0;0;0;Card;default rback
+fullRenouv;default;default.png;De nouvelles technologies nous permettraient de passer au 100% renouvelable;Le faire;0;25;0;-15;default lback;Ne pas le faire;10;0;0;0;Card;default rback
+plastiqueUnique;default;default.png;Des associations demandent d'interdire le plastique à usage unique;Interdire;0;10;10;0;default lback;Ignorer;0;-10;-10;0;Card;default rback
+subventionsFossiles;default;default.png;Nous pourrions réduire les subventions aux énergies fossiles afin d'économiser;Oui;-10;10;0;15;default lback;Non;0;-15;0;-15;Card;default rback
+zeroDechets;default;default.png;Encourageons le zéro déchet !;Recyclage et réparation;-10;15;10;0;default lback;Bannir les emballages;-10;15;10;0;Card;default rback
+zonesPietonnes;default;default.png;De nombreux accidents de cyclistes et piétons ont eu lieu cette année !;Encourager le tout voiture;15;0;-15;0;default lback;Aménager pour les vélos et les piétons;-5;10;10;0;Card;default rback
+innovDechets;default;default.png;Des chercheurs ont réussis à recycler de l'électronique ! ;Investir dans la technologie;0;0;0;0;default lback;Ne pas investir;0;0;0;0;Card;default rback
+totalitaireAvion;default;default.png;Notre voisin totalitaire souhaite nous acheter nos avions de combat;Vendre;10;0;-10;10;default lback;Ne pas vendre;-15;0;5;0;Card;default rback
+journeeSieste;default;default.png;Afin d'augmenter la productivité, nous pourrions instituer une journée nationale de la sieste;Instaurer;10;0;10;0;default lback;Ne rien faire;-10;0;-10;0;Card;default rback
+fiscaliteParc;default;default.png;"Notre pays a besoin de ""Fiscality's World"", car les impôts peuvent être amusants !";Hein ?;0;0;0;0;default lback;Excellente idée !;0;0;15;15;Card;default rback
+loterie;default;default.png;J'ai eu une idée lumineuse ! Une loterie nationale des jours de congées en plus !;Excellente idée !;-5;0;15;0;default lback;Pensez-vous aux entreprises ?;15;0;0;0;Card;default rback
+discoursBlagues;default;default.png;Que diriez-vous d'un discours rempli de blagues ?;Oui;0;0;-10;0;Le peuple a très peu apprécié votre hommage comique aux soldats ;Non;0;0;10;0;Card;Le peuple a apprecié votre ton approprié
+starterAlien;Visiteur;alien.png;t8mmj Sqx3fQ1lL T8EJXJl 8AQK fCWpi ?;Comment ?;0;0;0;0;Visiblement troublé, votre invité part;Hein ?;0;0;0;0;Card;L'invité apprécie votre réponse
+alienD0;Visiteur;alien.png;E 1JuJVcyGR CNgHObfh kJCWvYw rKNpa;Qui êtes vous ?;5;5;5;5;None;Que voulez vous ?;-5;-5;-5;-5;Card;None
+alienD1;Visiteur;alien.png;leCvOePZu qkHp xEZDLBYKsXxSPm5EH;Sortez d'ici;-10;-10;-10;-10;None;Sortez d'ici;10;10;10;10;Card;None
+alienD2;Visiteur;alien.png;9vW6Zk7pu2 RczQ9H 3vSGE p2qb 5vn na;Mais qui êtes vous ?;15;15;15;15;None;Vous pourriez ne pas revenir ?;-15;-15;-15;-15;Card;None
+alienD3;Visiteur;alien.png;H0FIQHmp43SxOqlbY3Ydr9hOeH2yr0;Quoi ?;10;-10;10;-10;Le visiteur s'en va;...;-10;10;-10;10;Card;Le visiteur est parti
+alienG3;Visiteur;alien.png;h O N P 6 i F f j y H m v d 3 0 X v Z C M Q b c Q 2 B z q B;Pourquoi;-10;10;-10;10;None;les espaces ?;10;-10;10;-10;Card;None
+alienG4;Visiteur;alien.png;UYgXFfjDC4n3UDiRDS9xwvTcj28OIy;Plusdespaces?;0;0;0;0;None;Plusdespaces?;0;0;0;0;Card;None
+alienFinal;Visiteur;alien.png;AcYBkolFHj5mafxidaVuYjvYxndHjB;default ltext;0;0;0;0;Apres le depart du visiteur, vous ne trouvez plus votre conjoint;default rtext;0;0;0;0;Card;Apres le depart du visiteur, vous ne trouvez plus votre chien
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+Pastis1;Préfet Pastix;Prefet_Pastix.png;Une rumeur circule sur le fait qu'un député détournerait des fonds publique pour payé des tournées générale dans les bars.;Investiguer;0;0;5;-5;default lback;Virer;0;0;5;-5;Card;default rback
+Pastis2;Sénateur Sagessaphix;Senateur_Sagessaphix.png;Il c'est avéré que la rumeur a été lancée par le préfet Pastix après une dispute ;Mais ?!;0;0;-10;-5;Vous avez viré un député pour rien;Ohh !!! Le fumié;0;0;-10;-5;Card;Vous avez viré un député pour rien
+Pastis3;Sénateur Sagessaphix;Senateur_Sagessaphix.png;Il c'est avéré que la rumeur a été lancée par le préfet Pastix après une dispute ;Oublier cette histoire;0;0;-5;0;Tout reviens a la normal;Convoquer Pastix;0;0;10;0;Card;default rback
+Pastis4;Préfet Pastix;Prefet_Pastix.png;J'ai appris que vous vouliez me parler, que se passe-t-il ?;J'ai appris qui a lancé la rumeur, je vous laisse une dernière chance, DISPARAISSEZ !!!;0;0;-5;0;Il part en courant ;Pourquoi avez vous lancé cette rumeur ? ;0;0;5;0;Card;Il bégaie avant de répondre 
+Pastis5;Préfet Pastix;Prefet_Pastix.png;Il a osé critiquer le pastis;Ok je vous comprend;0;0;5;-5;default lback;Je vais le virer de ce pas;0;0;-5;5;Card;default rback
+Technospatial1;Melon Husk;Melon_Husk.png;Des ingénieurs travaillent sur un nouveau type de fusée révolutionnaire, et ils recherchent des subventions;Financer;5;0;0;-10;default lback;Passer;-5;0;0;5;Card;default rback
+Technospatial2;Melon Husk;Melon_Husk.png;Un pays voisin a développé cette technologie et a découvert de nouvelles ressources dans l'espace. ;Dommage;-5;0;0;0;default lback;Tant pis;-5;0;0;0;Card;default rback
+Technospatial3;Melon Husk;Melon_Husk.png;Le travail a pris du temps, il faudrait plus de fonds;Payer;0;0;0;-5;default lback;Arrêter;0;0;0;5;Card;default rback
+Technospatial4;Melon Husk;Melon_Husk.png;Un explosion à eu lieux dans l'usine, il faut la reconstruire;Reconstruire;5;0;0;-10;default lback;Arrêter;-10;0;0;5;Card;default rback
+Technospatial5;Melon Husk;Melon_Husk.png;Les ingénieurs ont fait une erreur de calcul qui a cassé un moteur;Le reconstruire ;0;0;0;-5;default lback;Abandonner le projet ;0;0;0;0;Card;default rback
+Technospatial6;Melon Husk;Melon_Husk.png;Il y a eu un problème lors du lancement et la fusée a explosé  ;Refaire une fusée ;0;0;0;-10;default lback;C'en ai trop ;0;0;0;0;Card;default rback
+Technospatial7;Melon Husk;Melon_Husk.png;"Le lancement est une réussite !
+Nous avons découvert de nouveau matériaux qui vont booster notre industrie";Génial ! ;15;0;10;10;default lback;Enfin !!!;15;0;10;10;Card;default rback
+CDM1;Nanar Tapin;Nanar_Tapin.png;La Coupe Du Monde approche a grand pas, et si notre équipe gagne votre popularité pourrais monter;On va les aider;0;0;0;-5;default lback;J’espère qu'ils vont gagner ;0;0;5;0;Card;Ils ont été éliminé en phase de poule 
+CDM2;Nanar Tapin;Nanar_Tapin.png;Notre équipe n'est pas assez forte pour espérer gagner la compétition;Changer le coach;0;0;-5;0;Ils ont perdu car Nanar Tapin a nominé son frère comme nouveaux sélectionneur ;Naturaliser des joueurs pour renforcer notre équipe ;0;0;-5;-10;Card;default rback
+CDM3;Nanar Tapin;Nanar_Tapin.png;La FIFA n'est pas content de nos méthode et nous menace de nous disqualifier;Ils ne vont rien faire c'est des paroles en l'air ;0;0;-10;5;Ils nous ont disqualifié et le peuple est en colère contre vous ;Corrompre la FIFA;0;0;0;-10;Card;default rback
+CDM4;Nanar Tapin;Nanar_Tapin.png;Contre toute attente on se retrouve en final ;Payer l'arbitre ;0;0;0;-10;default lback;Génial;0;0;5;0;Card;Notre équipe s'incline en final mais le peuple est heureux du parcours de notre équipe
+CDM5;Nanar Tapin;Nanar_Tapin.png;On est CHAMPION DU MONDE !!!;Génial !!;5;5;15;5;Le peuple est heureux et votre économie connait un mini-boom;Youhouu !!;5;5;15;5;Card;Le peuple est heureux et votre économie connait un mini-boom
+Corruption1;Picsou;Picsou.png;En échange d'un peu d'argent voulez vous faire passer une loi ?;Bien sur;0;0;-5;15;default lback;Hors de question;0;0;5;-10;Card;default rback
+Corruption2;Picsou;Picsou.png;L'affaire c'est ébruité et commence a prendre de l'ampleur ;Censurer ;0;0;-10;-10;La censure na pas marché, trop de gens était au courant ;Nier ;0;0;0;0;Card;default rback
+Corruption3;Picsou;Picsou.png;Les médias ne parlent plus que de ça;Acheter le silence des médias ;0;0;-5;-15;Après un certain temps les gens sont passer à autre chose;Faire un communiqué officiel;0;0;-10;0;Card;default rback
+Corruption4;Sénateur Sagessaphix;Senateur_Sagessaphix.png;Des manifestations on lieux partout dans le pays, et le peuple réclame votre démission;Envoyer l'armé;-10;-10;-10;-10;Les manifestations se calme en voyant l'armée arriver ;Démissionner ;-100;-100;100;-100;Card;Le pays est en ruine mais est heureux de votre démission
+Corruption5;Sénateur Sagessaphix;Senateur_Sagessaphix.png;On vous considère comme un dictateur dans le monde entier ;Mais ... ;-5;-5;-5;-5;default lback;Parfait;-5;-5;-10;5;Card;Vous mettez en place une vrai dictature
+Corruption6;Sénateur Sagessaphix;Senateur_Sagessaphix.png;Il faut essayer de remonter la satisfaction du peuple;Payer les manifestant ;5;5;15;-15;La situations revient peut a peut a la normale;Offrir des vacances a tout le monde ;-5;-5;15;-15;Card;La situations revient peut a peut a la normale
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+pandemie_mondiale1;default;default.png;Face à la menace d'une pandémie mondiale, une proposition vise à élaborer un plan de prévention. Comment aborderas-tu cette situation sanitaire critique ?;Investir massivement dans la prévention, la recherche et la production de vaccins, anticipant les conséquences à long terme.;-5;5;15;-10;default lback;Limiter les investissements, la dette publique n'a jamais été aussi faible!;5;-5;-15;10;Card;default rback
+pandemie_mondiale2;default;default.png;Les ressources médicales sont limitées, et des choix difficiles doivent être faits. Comment géreras-tu la distribution des ressources médicales pendant la pandémie ?;Mettre en place des critères éthiques stricts pour la distribution des ressources, en se basant sur la nécessité médicale et l'équité.;-5;5;15;-10;default lback;prendre des parts dans les entreprises pharmacetiques et imposer un prix minimal de vente des medicaments elevés;5;-5;-15;10;Card;default rback
+pandemie_mondiale3;default;default.png;Des débats émergent sur la nécessité de fermer les frontières pour contenir la propagation du virus. Comment aborderas-tu cette question délicate ?;Fermer temporairement les frontières pour protéger la population nationale, equiper les gardes frontaliers de lance flamme pour eviter toute contamination.;-5;5;15;-10;default lback;Laisser les frontieres ouvertes mais pucer les migrants pour evaluer l'evolution du virus.;5;-5;-15;10;Card;default rback
+pandemie_mondiale4;default;default.png;Une proposition suggère un confinement national strict pour freiner la propagation du virus. Comment réagiras-tu face à cette proposition de confinement ?;Imposer un confinement national strict pour protéger la population, sortir l'armee dans les rue avec l'autorisation d'ouvrir le feu.;-10;5;20;-15;default lback;Ne pas confiner mais imposer le check au lieu de la bise.;-5;-5;10;-10;Card;default rback
+pandemie_mondiale5;default;default.png;Des rumeurs et de fausses informations circulent, créant de la confusion. Comment géreras-tu la diffusion de l'information pendant la pandémie ?;Employer des experts en dicature pour censure les fausses informations.;-5;5;15;-10;default lback;Favoriser la liberté d'expression, subventionner les associations platistes ect...;5;-5;-15;10;Card;default rback
+pandemie_mondiale6;default;default.png;Une proposition encourage la recherche internationale sur les virus pour mieux comprendre et anticiper les futures pandémies. Comment soutiendras-tu cette initiative ?;Accepter et en profiter pour voler les informations des autres pays pour developper la recherche nationale.;-5;5;15;-10;default lback;Limiter les investissements, vous venez de trouver un remede contre la surpopulation mondiale.;5;-5;-15;10;Card;default rback
+pandemie_mondiale7;default;default.png;Une proposition controversée suggère de rendre la vaccination obligatoire pour l'ensemble de la population. Comment prendras-tu cette décision délicate ?;Imposer la vaccination obligatoire, tout citoyen s'y oposant se verra retirer tout ses droits les plus fondamentaux.;-5;5;15;-10;default lback;Legaliser les pots de vin medicaux.;5;-5;-15;10;Card;default rback
+pandemie_mondiale8;default;default.png;Les conséquences économiques à long terme de la pandémie sont débattues. Comment aborderas-tu la reconstruction économique post-pandémie ?;Proposer un plan de relance economique avec les grosses entreprises nationales, contre annulation de toutes procedures judicaires en cours.;-10;5;20;-15;default lback;Augmente ton salaire, d'ici là tu ne serras plus au pouvoir.;-5;-5;10;-10;Card;default rback
+pandemie_mondiale9;default;default.png;Des propositions émergent pour une distribution mondiale équitable des vaccins. Comment contribueras-tu à cette initiative internationale ?;Distribution masive de vaccins à l'etranger, de bon coeur vous y rajoutez secretement d'autres vaccins(encore en phase de test mais ca c'est juste de la paperasse).;-5;5;15;-10;default lback;Prioriser la vaccination nationale avant de contribuer aux efforts mondiaux, le surplus servira au betail.;5;-5;-15;10;Card;default rback
+pandemie_mondiale10;default;default.png;La nécessité de se préparer aux futures pandémies est discutée. Recuperons le meilleurs de cette pandemie.;Tu es transparent et livre toutes les informations utiles sur ton mandat.;-5;5;15;-10;default lback;Tu brules les archives de ton mandat. Tu emporteras les secrets sur la gestion de cette pandemie dans ta tombe.;5;-5;-15;10;Card;default rback
+pandemie_mondiale11;default;default.png;La fermeture des écoles est débattue pour limiter la propagation du virus. Comment géreras-tu la situation éducative pendant la pandémie ?;Fermer temporairement les écoles et imposer l'ecole buisonniere.;-5;5;15;-10;default lback;Maintenir les écoles ouvertes en y implantant des labos de recherche pour beneficier de cobays pas chers.;5;-5;-15;10;Card;default rback
+pandemie_mondiale12;default;default.png;Des événements publics sont remis en question pour éviter les rassemblements massifs. Comment aborderas-tu la tenue d'événements pendant la pandémie ?;Interdire tout evenements publique et reprimander de manière plus musclée les manifestions contre le gouvernement.;-5;5;15;-10;default lback;Autoriser la participation à des événements sous condition d'etre membre du parti.;5;-5;-15;10;Card;default rback
+pandemie_mondiale13;default;default.png;La sécurité dans les lieux de travail est cruciale pour éviter les éclosions. Comment assurer la sécurité des travailleurs pendant la pandémie ?;Imposer des restrictions strictes dans les lieux de travail, développer le chomage partiel.;-5;5;15;-10;default lback;Maintenir une activité économique normale, faire collaborer la police et les entreprises pour ramener les brebis égarées au travail.;5;-5;-15;10;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback
+default;default;default.png;default text;default ltext;0;0;0;0;default lback;default rtext;0;0;0;0;Card;default rback

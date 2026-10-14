@@ -1,0 +1,11 @@
+# ignore ALL .log files
+*.log
+*.md
+
+#ignore les brouillons
+Brouillon.ipynb
+
+# ignore ALL files in ANY directory named temp
+__pycache__/
+UML/
+.ipynb_checkpoints/
