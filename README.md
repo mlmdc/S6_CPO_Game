@@ -1,35 +1,35 @@
-# 🎴 Reignib
+# Reignib
 
-> **🇬🇧 EN** — Govern a fictional country, make tough choices and balance the consequences of every decision.<br>
-> **🇫🇷 FR** — Gouvernez un pays fictif, faites des choix difficiles et mesurez les conséquences de chaque décision.
+ **🇬🇧 EN** — Govern a fictional country, make tough choices and balance the consequences of every decision.
+ **🇫🇷 FR** — Gouvernez un pays fictif, faites des choix difficiles et mesurez les conséquences de chaque décision.
 
 ![Reignib game artwork](src/png/main_paysage.png)
 
 **Python · Pyglet · Choice-driven strategy game**
 
-[💻 Source code](https://github.com/mlmdc/S6_CPO_Game) · [📑 Contents / Sommaire](#table-of-contents-sommaire)
+[Source code](https://github.com/mlmdc/S6_CPO_Game) · [Contents / Sommaire](#table-of-contents-sommaire)
 
 <a id="table-of-contents-sommaire"></a>
-## 📑 Table of contents / Sommaire
+## Table of contents / Sommaire
 
-- [🎮 Overview / Présentation](#overview-presentation)
-- [💡 Problem & approach / Problématique et approche](#problem-approach)
-- [🛠️ Technical decisions / Choix techniques](#technical-decisions)
-- [📊 Results & learnings / Résultats et apprentissages](#results-learnings)
-- [🚀 Getting started](#getting-started)
-- [📚 Project resources / Ressources du projet](#project-resources)
-- [📄 License / Licence](#license)
+- [Overview / Présentation](#overview-presentation)
+- [Problem & approach / Problématique et approche](#problem-approach)
+- [Technical decisions / Choix techniques](#technical-decisions)
+- [Results & learnings / Résultats et apprentissages](#results-learnings)
+- [Getting started](#getting-started)
+- [Project resources / Ressources du projet](#project-resources)
+- [License / Licence](#license)
 
 <a id="overview-presentation"></a>
-## 🎮 Overview / Présentation
+## Overview / Présentation
 
-**🇬🇧 EN**
-Reignib is a Python desktop game inspired by [Reigns](https://www.devolverdigital.com/games/reigns), developed by [Nerial](https://www.nerial.co.uk/). It is intended for players interested in the consequences of public decisions. The player governs a fictional country by responding to events with one of two choices. Each decision changes four indicators—industry, people, climate and treasury. The project uses this loop to make the trade-offs around sustainable and short-term decisions visible through gameplay.
+**🇬🇧 EN** Reignib is a Python desktop game inspired by [Reigns](https://www.devolverdigital.com/games/reigns), developed by [Nerial](https://www.nerial.co.uk/). It is intended for players interested in the consequences of public decisions. The player governs a fictional country by responding to events with one of two choices. Each decision changes four indicators—industry, people, climate and treasury. The project uses this loop to make the trade-offs around sustainable and short-term decisions visible through gameplay.
 
-**🇫🇷 FR**
-Reignib est un jeu de bureau en Python inspiré de [Reigns](https://www.devolverdigital.com/games/reigns), développé par [Nerial](https://www.nerial.co.uk/). Il s'adresse aux joueurs intéressés par les conséquences des décisions publiques. Le joueur gouverne un pays fictif en répondant à des événements par l'un de deux choix. Chaque décision modifie quatre indicateurs — industrie, population, climat et trésorerie. Le projet rend ainsi visibles, dans le jeu, les compromis entre décisions durables et court-termistes.
+<br>
 
-### ✨ Features / Fonctionnalités
+**🇫🇷 FR** Reignib est un jeu de bureau en Python inspiré de [Reigns](https://www.devolverdigital.com/games/reigns), développé par [Nerial](https://www.nerial.co.uk/). Il s'adresse aux joueurs intéressés par les conséquences des décisions publiques. Le joueur gouverne un pays fictif en répondant à des événements par l'un de deux choix. Chaque décision modifie quatre indicateurs — industrie, population, climat et trésorerie. Le projet rend ainsi visibles, dans le jeu, les compromis entre décisions durables et court-termistes.
+
+### Features / Fonctionnalités
 
 **🇬🇧 EN**
 - Make left-or-right decisions in response to political and social events.
@@ -44,25 +44,29 @@ Reignib est un jeu de bureau en Python inspiré de [Reigns](https://www.devolver
 - Enregistrer localement une partie avec une portée limitée.
 
 <a id="problem-approach"></a>
-## 💡 Problem & approach / Problématique et approche
+## Problem & approach / Problématique et approche
 
 **🇬🇧 EN**
 The initial brief was to make sustainable development part of the gameplay rather than a separate lesson. The team built a card-based decision loop in which each choice changes shared indicators and can reveal a contextual consequence. The main constraint was to deliver a playable prototype with original visual and narrative content as part of a student project.
+
+<br>
 
 **🇫🇷 FR**
 L'objectif initial était d'intégrer le développement durable au jeu plutôt que d'en faire un contenu pédagogique séparé. L'équipe a créé une boucle de décisions à base de cartes : chaque choix modifie des indicateurs communs et peut révéler une conséquence contextualisée. La contrainte principale était de livrer un prototype jouable avec des contenus visuels et narratifs originaux dans le cadre d'un projet étudiant.
 
 <a id="technical-decisions"></a>
-## 🛠️ Technical decisions / Choix techniques
+## Technical decisions / Choix techniques
 
 **🇬🇧 EN**
 Python and Pyglet handle the desktop window, rendering, input, timing and audio; NumPy supports weighted thread selection, although the active game flow currently registers a single random thread. Cards and their effects are stored in a semicolon-separated CSV so game content can be edited separately from rendering code. The code is split into modules for cards, menus, statistics, selection and event handling. A shared configuration module simplified coordination in the prototype, at the cost of tighter coupling between those modules.
+
+<br>
 
 **🇫🇷 FR**
 Python et Pyglet gèrent la fenêtre, le rendu, les entrées, le rythme de jeu et l'audio ; NumPy permet la sélection pondérée des fils narratifs, bien que le jeu actif n'enregistre actuellement qu'un seul fil aléatoire. Les cartes et leurs effets sont stockés dans un CSV séparé par des points-virgules, dissociant le contenu du code de rendu. Le code est réparti en modules pour les cartes, les menus, les statistiques, la sélection et les événements. Un module de configuration partagé a simplifié la coordination dans le prototype, au prix d'un couplage plus fort entre ces modules.
 
 <a id="results-learnings"></a>
-## 📊 Results & learnings / Résultats et apprentissages
+## Results & learnings / Résultats et apprentissages
 
 **🇬🇧 EN**
 - The repository contains a playable desktop prototype with a card interface, four tracked indicators, audio and menu flows.
@@ -70,6 +74,8 @@ Python et Pyglet gèrent la fenêtre, le rendu, les entrées, le rythme de jeu e
 - The project highlighted the trade-off between quick iteration through shared global state and the maintainability of more independent modules.
 - Cards currently come from a random pool; although the code includes classes for narrative threads, branching paths are not connected to the active game flow.
 - The local JSON save stores the current card, month counter and indicators, but not the full decision history or narrative progression. Completing and validating narrative paths and broadening save coverage are possible next steps.
+
+<br>
 
 **🇫🇷 FR**
 - Le dépôt contient un prototype de bureau jouable avec une interface à cartes, quatre indicateurs, de l'audio et plusieurs menus.
@@ -79,7 +85,7 @@ Python et Pyglet gèrent la fenêtre, le rendu, les entrées, le rythme de jeu e
 - La sauvegarde JSON locale conserve la carte courante, le compteur de mois et les indicateurs, mais pas l'historique complet des décisions ni la progression narrative. Compléter et valider les parcours narratifs, puis étendre la sauvegarde, sont des pistes d'évolution.
 
 <a id="getting-started"></a>
-## 🚀 Getting started
+## Getting started
 
 ### Prerequisites / Prérequis
 
@@ -117,7 +123,5 @@ Le [dossier de conception UML](UML/REIGNIB_presentation.pdf) présente le travai
 - LAGADIC Youenn — [y0lagadi@enib.fr](mailto:y0lagadi@enib.fr)
 
 <a id="license"></a>
-## 📄 License / Licence
-
-🇬🇧 This project is licensed under the [MIT License](LICENSE).<br>
-🇫🇷 Ce projet est distribué sous licence [MIT](LICENSE).
+## License 
+This project is licensed under the [MIT License](LICENSE).<br>
