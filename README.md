@@ -7,7 +7,7 @@
 
 **Python · Pyglet · Choice-driven strategy game**
 
-[Source code](https://github.com/mlmdc/S6_CPO_Game) · [Contents / Sommaire](#table-of-contents-sommaire)
+[← Back to portfolio](https://github.com/mlmdc) · [Contents / Sommaire](#table-of-contents-sommaire)
 
 <a id="table-of-contents-sommaire"></a>
 ## Table of contents / Sommaire
@@ -107,7 +107,7 @@ python main.py
 From the main menu, select **Jouer**, then drag a card left or right to make a decision.
 
 <a id="project-resources"></a>
-## 📚 Project resources / Ressources du projet
+## Project resources
 
 **🇬🇧 EN**
 The [UML design document](UML/REIGNIB_presentation.pdf) records the original design work. Current project tasks are tracked in [GitHub Issues](https://github.com/mlmdc/S6_CPO_Game/issues).
