@@ -1,13 +1,13 @@
 # Reignib
 
- **🇬🇧 EN** — Govern a fictional country, make tough choices and balance the consequences of every decision.
- **🇫🇷 FR** — Gouvernez un pays fictif, faites des choix difficiles et mesurez les conséquences de chaque décision.
+ **🇬🇧 EN** - Govern a fictional country, make tough choices and balance the consequences of every decision.
+ **🇫🇷 FR** - Gouvernez un pays fictif, faites des choix difficiles et mesurez les conséquences de chaque décision.
 
 ![Reignib game artwork](src/png/main_paysage.png)
 
 **Python · Pyglet · Choice-driven strategy game**
 
-[← Back to portfolio](https://github.com/mlmdc) · [Contents / Sommaire](#table-of-contents-sommaire)
+[← Back to portfolio](https://mlmdc.github.io/mlmdc_portfolio/) · [Contents / Sommaire](#table-of-contents-sommaire)
 
 <a id="table-of-contents-sommaire"></a>
 ## Table of contents / Sommaire
