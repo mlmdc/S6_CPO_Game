@@ -5,8 +5,8 @@
 <h1 align="center">Reignib</h1>
 
 <p align="left">
-  <strong>🇬🇧 EN - </strong> A student software project exploring object-oriented and full-stack development, multimedia data management and collaborative workflows.<br>
-  <strong>🇫🇷 FR - </strong> Un projet étudiant explorant la programmation orientée objet, le développement full-stack, la gestion de données multimédias et le travail collaboratif.
+  <strong>🇬🇧 EN - </strong> A student game project exploring object-oriented and full-stack development, multimedia data management and collaborative workflows.<br>
+  <strong>🇫🇷 FR - </strong> Un projet étudiant de jeu vidéo explorant la programmation orientée objet, le développement full-stack, la gestion de données multimédias et le travail collaboratif.
 </p>
 
 [← Back to portfolio](https://mlmdc.github.io/mlmdc_portfolio/) · [Contents / Sommaire](#table-of-contents-sommaire)
