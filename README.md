@@ -1,64 +1,130 @@
-# Reignib — Projet étudiant de développement logiciel
+# Reignib
 
-Reignib est un projet étudiant réalisé en équipe autour d’un jeu de cartes en Python. Le jeu sert de support à l’exploration de plusieurs dimensions du développement logiciel : programmation orientée objet, réalisation d’une application de bout en bout, gestion de contenus multimédias et organisation d’un projet avec GitLab.
+ **🇬🇧 EN** - A student software project exploring object-oriented and full-stack development, multimedia data management and collaborative workflows.
+ **🇫🇷 FR** - Un projet étudiant explorant la programmation orientée objet, le développement full-stack, la gestion de données multimédias et le travail collaboratif.
 
-L’objectif de ce dépôt est de présenter cette démarche et les choix techniques du projet, plutôt que de proposer une page destinée aux joueurs.
+![Reignib project artwork](src/png/main_paysage.png)
 
-## Axes d’apprentissage
+**Python · Pyglet · Student software project**
 
-### Programmation orientée objet
+[← Back to portfolio](https://mlmdc.github.io/mlmdc_portfolio/) · [Contents / Sommaire](#table-of-contents-sommaire)
 
-Le code est organisé en classes qui représentent les principaux éléments de l’application : cartes (`Card`, `EventCard`, `NarrativeCard`), menus, statistiques et fils de cartes (`Thread`, `RandomThread`, `NarrativeThread`). Ce découpage a permis de travailler sur la responsabilité des objets, l’héritage et les interactions entre composants.
+<a id="table-of-contents-sommaire"></a>
+## Table of contents / Sommaire
 
-### Développement de l’application de bout en bout
+- [Overview / Présentation](#overview-presentation)
+- [Problem & approach / Problématique et approche](#problem-approach)
+- [Technical decisions / Choix techniques](#technical-decisions)
+- [Results & learnings / Résultats et apprentissages](#results-learnings)
+- [Getting started](#getting-started)
+- [Project resources / Ressources du projet](#project-resources)
+- [License / Licence](#license)
 
-Le projet couvre plusieurs couches d’une application desktop : interface et événements avec Pyglet, logique de jeu, chargement des contenus, lecture audio et sauvegarde locale. Ici, « full-stack » désigne le développement de ces couches dans une application de bureau, et non une architecture web client-serveur.
+<a id="overview-presentation"></a>
+## Overview / Présentation
 
-### Gestion des données et des ressources
+**🇬🇧 EN** Reignib is a team-based student project developed in Python. Its card-game prototype provided a practical setting to explore object-oriented programming, application development across multiple layers, multimedia resource management and collaborative project practices. This repository documents the technical and organizational work behind the prototype, not just a game to try.
 
-Les contenus sont séparés du code autant que possible :
+<br>
 
-- les cartes et leurs effets sont décrits dans `src/utils/cards_data.csv` ;
-- les illustrations, icônes, arrière-plans et polices sont rangés dans `src/png/` et `src/font/` ;
-- les sons et musiques sont regroupés dans `src/sounds/` ;
-- `src/cardlib.py` charge les ressources utilisées par l’application ;
-- `src/save.py` sérialise l’état de jeu dans un fichier JSON local.
+**🇫🇷 FR** Reignib est un projet étudiant réalisé en équipe et développé en Python. Son prototype de jeu de cartes a servi de support pour explorer la programmation orientée objet, le développement d’une application à plusieurs couches, la gestion de ressources multimédias et les pratiques de travail collaboratif. Ce dépôt présente le travail technique et organisationnel réalisé autour du prototype, et pas seulement un jeu à essayer.
 
-Cette organisation facilite l’édition des cartes et le remplacement des ressources sans modifier directement le rendu de l’application.
+### Learning areas / Axes d’apprentissage
 
-### Gestion de projet et CI/CD
+**🇬🇧 EN**
+- Model game concepts with classes for cards, menus, statistics and narrative threads.
+- Build a desktop application combining interface, events, game logic, audio and local saves.
+- Keep card data and visual and audio assets separate from application code.
+- Explore team coordination, project planning, version control and CI/CD practices with GitLab.
 
-La gestion du projet avec GitLab fait partie des apprentissages : organisation du travail collaboratif, versionnement et découverte d’une démarche CI/CD. Le dépôt GitHub présenté ici ne contient pas de fichier `.gitlab-ci.yml` ; il ne décrit donc pas de pipeline GitLab exécutable ni de jobs automatisés.
+**🇫🇷 FR**
+- Modéliser les éléments du jeu avec des classes de cartes, menus, statistiques et fils narratifs.
+- Construire une application de bureau réunissant interface, événements, logique de jeu, audio et sauvegarde locale.
+- Séparer les données des cartes et les ressources visuelles et audio du code applicatif.
+- Explorer la coordination d’équipe, la planification, le versionnement et les pratiques CI/CD avec GitLab.
 
-Les documents de conception et de planification conservés dans le dépôt témoignent également de cette démarche : [présentation UML](UML/REIGNIB_presentation.pdf) et [planning Gantt](UML/gantt.png). Un [historique GitLab du projet](https://git.enib.fr/y0lagadi/CPO_02_Groupe2) est également disponible.
+<a id="problem-approach"></a>
+## Problem & approach / Problématique et approche
 
-## Choix techniques
+**🇬🇧 EN**
+The project brief combined the design of a card-based game with the application of software engineering concepts in a team setting. The team organized the prototype into Python modules and classes, connected a Pyglet interface to game data, and prepared UML and planning documents to support design and coordination. The project also provided an opportunity to study how a collaborative GitLab workflow can support development and CI/CD.
 
-- **Python** pour la logique de l’application.
-- **Pyglet** pour la fenêtre, le rendu graphique, les interactions et l’audio.
-- **NumPy** pour certaines opérations de sélection.
-- **CSV** pour séparer les données des cartes du code de l’interface.
-- **JSON** pour la sauvegarde locale.
+<br>
 
-Le prototype s’appuie sur un module de configuration partagé pour rendre l’état accessible entre composants. Ce choix facilite les échanges dans une première version, mais crée aussi du couplage ; le projet permet ainsi d’aborder les compromis entre rapidité de développement et maintenabilité.
+**🇫🇷 FR**
+Le projet associait la conception d’un jeu de cartes à la mise en pratique de notions de génie logiciel dans un travail d’équipe. Le prototype a été organisé en modules et classes Python, avec une interface Pyglet reliée aux données du jeu. Des documents UML et de planification ont accompagné la conception et la coordination. Le projet a également permis d’étudier comment un flux de travail collaboratif avec GitLab peut soutenir le développement et une démarche CI/CD.
 
-## Organisation du dépôt
+<a id="technical-decisions"></a>
+## Technical decisions / Choix techniques
 
-| Chemin | Contenu |
-| --- | --- |
-| `src/main.py` | Point d’entrée et initialisation de l’application |
-| `src/obj/` | Classes des cartes, menus, statistiques et fils narratifs |
-| `src/utils/` | Configuration, chargement des données et utilitaires |
-| `src/png/`, `src/sounds/`, `src/font/` | Ressources graphiques, audio et typographiques |
-| `UML/` | Documents de conception et de planification |
+**🇬🇧 EN**
+Python and Pyglet handle the desktop window, rendering, input and audio. The code defines classes for cards, menus, statistics and narrative threads, while CSV keeps card descriptions and effects separate from rendering code. Images, fonts and sounds are organized as application assets, and JSON is used for a local save. A shared configuration module made state accessible across components during prototyping, with the trade-off of tighter coupling.
 
-## Équipe
+GitLab is part of the project's collaborative development and CI/CD learning objectives. This GitHub mirror does not contain a `.gitlab-ci.yml` file, so it does not represent an executable GitLab pipeline.
 
-- MADEC Maël
-- COLLET Guillaume
-- LE CORFF Louis
-- LAGADIC Youenn
+<br>
 
-## Licence
+**🇫🇷 FR**
+Python et Pyglet gèrent la fenêtre de bureau, le rendu, les entrées et l’audio. Le code définit des classes pour les cartes, les menus, les statistiques et les fils narratifs ; le CSV sépare les descriptions et effets des cartes du code de rendu. Les images, polices et sons sont organisés comme ressources de l’application, et la sauvegarde locale utilise JSON. Un module de configuration partagé a rendu l’état accessible entre composants pendant le prototypage, au prix d’un couplage plus important.
 
+GitLab fait partie des objectifs d’apprentissage liés au développement collaboratif et au CI/CD. Ce miroir GitHub ne contient pas de fichier `.gitlab-ci.yml` et ne correspond donc pas à un pipeline GitLab exécutable.
+
+<a id="results-learnings"></a>
+## Results & learnings / Résultats et apprentissages
+
+**🇬🇧 EN**
+- The repository brings together a Python/Pyglet desktop prototype and its design and planning documents.
+- Separating card data and multimedia assets from application code supports content updates without rewriting the interface.
+- The class and module structure provided practical experience with object-oriented design and component interactions.
+- Shared configuration helped prototype coordination but highlighted the maintainability cost of coupling.
+- The project introduced collaborative planning and version-control practices, alongside CI/CD concepts in a GitLab context.
+
+<br>
+
+**🇫🇷 FR**
+- Le dépôt rassemble un prototype de bureau Python/Pyglet ainsi que ses documents de conception et de planification.
+- La séparation des données de cartes et des ressources multimédias du code facilite les mises à jour de contenu sans réécrire l’interface.
+- La structure en classes et modules a permis de mettre en pratique la conception orientée objet et les interactions entre composants.
+- La configuration partagée a facilité le prototypage, tout en mettant en évidence le coût du couplage pour la maintenabilité.
+- Le projet a permis d’aborder la planification collaborative et le versionnement, ainsi que les concepts de CI/CD dans un contexte GitLab.
+
+<a id="getting-started"></a>
+## Getting started
+
+### Prerequisites / Prérequis
+
+- Python 3 and `pip`
+- A desktop environment with graphics and audio support
+
+The repository does not currently provide a dependency lockfile or pinned package versions.
+
+### Install and run / Installer et lancer
+
+Run the prototype from `src/`, which is the working directory expected by its relative paths to images, sounds and card data:
+
+```bash
+cd src
+python -m pip install pyglet numpy
+python main.py
+```
+
+<a id="project-resources"></a>
+## Project resources / Ressources du projet
+
+**🇬🇧 EN**
+The [UML design document](UML/REIGNIB_presentation.pdf) and [Gantt planning chart](UML/gantt.png) record design and project-planning work. The original [GitLab project history](https://git.enib.fr/y0lagadi/CPO_02_Groupe2) provides further context on the collaborative workflow. Current repository tasks are tracked in [GitHub Issues](https://github.com/mlmdc/S6_CPO_Game/issues).
+
+**🇫🇷 FR**
+Le [dossier de conception UML](UML/REIGNIB_presentation.pdf) et le [planning Gantt](UML/gantt.png) présentent le travail de conception et de planification. L’[historique du projet sur GitLab](https://git.enib.fr/y0lagadi/CPO_02_Groupe2) apporte un complément de contexte sur le travail collaboratif. Les tâches du dépôt actuel sont suivies dans les [issues GitHub](https://github.com/mlmdc/S6_CPO_Game/issues).
+
+### Contributors / Contributeurs
+
+- MADEC Maël — [m0madec@enib.fr](mailto:m0madec@enib.fr)
+- COLLET Guillaume — [g0collet@enib.fr](mailto:g0collet@enib.fr)
+- LE CORFF Louis — [l0lecorf@enib.fr](mailto:l0lecorf@enib.fr)
+- LAGADIC Youenn — [y0lagadi@enib.fr](mailto:y0lagadi@enib.fr)
+
+<a id="license"></a>
+## License / Licence
+This project is licensed under the [MIT License](LICENSE).<br>
 Ce projet est distribué sous licence [MIT](LICENSE).
