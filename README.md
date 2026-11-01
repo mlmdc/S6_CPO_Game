@@ -1,11 +1,11 @@
 # Reignib
 
- **🇬🇧 EN** - Govern a fictional country, make tough choices and balance the consequences of every decision.
- **🇫🇷 FR** - Gouvernez un pays fictif, faites des choix difficiles et mesurez les conséquences de chaque décision.
+ **🇬🇧 EN** - A student software project exploring object-oriented and full-stack development, multimedia data management and collaborative workflows.
+ **🇫🇷 FR** - Un projet étudiant explorant la programmation orientée objet, le développement full-stack, la gestion de données multimédias et le travail collaboratif.
 
-![Reignib game artwork](src/png/main_paysage.png)
+![Reignib project artwork](src/png/main_paysage.png)
 
-**Python · Pyglet · Choice-driven strategy game**
+**Python · Pyglet · Student software project**
 
 [← Back to portfolio](https://mlmdc.github.io/mlmdc_portfolio/) · [Contents / Sommaire](#table-of-contents-sommaire)
 
@@ -23,66 +23,70 @@
 <a id="overview-presentation"></a>
 ## Overview / Présentation
 
-**🇬🇧 EN** Reignib is a Python desktop game inspired by [Reigns](https://www.devolverdigital.com/games/reigns), developed by [Nerial](https://www.nerial.co.uk/). It is intended for players interested in the consequences of public decisions. The player governs a fictional country by responding to events with one of two choices. Each decision changes four indicators—industry, people, climate and treasury. The project uses this loop to make the trade-offs around sustainable and short-term decisions visible through gameplay.
+**🇬🇧 EN** Reignib is a team-based student project developed in Python. Its card-game prototype provided a practical setting to explore object-oriented programming, application development across multiple layers, multimedia resource management and collaborative project practices. This repository documents the technical and organizational work behind the prototype, not just a game to try.
 
 <br>
 
-**🇫🇷 FR** Reignib est un jeu de bureau en Python inspiré de [Reigns](https://www.devolverdigital.com/games/reigns), développé par [Nerial](https://www.nerial.co.uk/). Il s'adresse aux joueurs intéressés par les conséquences des décisions publiques. Le joueur gouverne un pays fictif en répondant à des événements par l'un de deux choix. Chaque décision modifie quatre indicateurs — industrie, population, climat et trésorerie. Le projet rend ainsi visibles, dans le jeu, les compromis entre décisions durables et court-termistes.
+**🇫🇷 FR** Reignib est un projet étudiant réalisé en équipe et développé en Python. Son prototype de jeu de cartes a servi de support pour explorer la programmation orientée objet, le développement d’une application à plusieurs couches, la gestion de ressources multimédias et les pratiques de travail collaboratif. Ce dépôt présente le travail technique et organisationnel réalisé autour du prototype, et pas seulement un jeu à essayer.
 
-### Features / Fonctionnalités
+### Learning areas / Axes d’apprentissage
 
 **🇬🇧 EN**
-- Make left-or-right decisions in response to political and social events.
-- Track four indicators; reaching an indicator's limit ends the game.
-- Play with illustrated cards, menus, sound controls and a pause menu.
-- Save a limited amount of game state locally.
+- Model game concepts with classes for cards, menus, statistics and narrative threads.
+- Build a desktop application combining interface, events, game logic, audio and local saves.
+- Keep card data and visual and audio assets separate from application code.
+- Explore team coordination, project planning, version control and CI/CD practices with GitLab.
 
 **🇫🇷 FR**
-- Répondre à des événements politiques et sociaux par un choix à gauche ou à droite.
-- Suivre quatre indicateurs ; atteindre la limite de l'un d'eux met fin à la partie.
-- Jouer avec des cartes illustrées, des menus, des réglages sonores et un menu pause.
-- Enregistrer localement une partie avec une portée limitée.
+- Modéliser les éléments du jeu avec des classes de cartes, menus, statistiques et fils narratifs.
+- Construire une application de bureau réunissant interface, événements, logique de jeu, audio et sauvegarde locale.
+- Séparer les données des cartes et les ressources visuelles et audio du code applicatif.
+- Explorer la coordination d’équipe, la planification, le versionnement et les pratiques CI/CD avec GitLab.
 
 <a id="problem-approach"></a>
 ## Problem & approach / Problématique et approche
 
 **🇬🇧 EN**
-The initial brief was to make sustainable development part of the gameplay rather than a separate lesson. The team built a card-based decision loop in which each choice changes shared indicators and can reveal a contextual consequence. The main constraint was to deliver a playable prototype with original visual and narrative content as part of a student project.
+The project brief combined the design of a card-based game with the application of software engineering concepts in a team setting. The team organized the prototype into Python modules and classes, connected a Pyglet interface to game data, and prepared UML and planning documents to support design and coordination. The project also provided an opportunity to study how a collaborative GitLab workflow can support development and CI/CD.
 
 <br>
 
 **🇫🇷 FR**
-L'objectif initial était d'intégrer le développement durable au jeu plutôt que d'en faire un contenu pédagogique séparé. L'équipe a créé une boucle de décisions à base de cartes : chaque choix modifie des indicateurs communs et peut révéler une conséquence contextualisée. La contrainte principale était de livrer un prototype jouable avec des contenus visuels et narratifs originaux dans le cadre d'un projet étudiant.
+Le projet associait la conception d’un jeu de cartes à la mise en pratique de notions de génie logiciel dans un travail d’équipe. Le prototype a été organisé en modules et classes Python, avec une interface Pyglet reliée aux données du jeu. Des documents UML et de planification ont accompagné la conception et la coordination. Le projet a également permis d’étudier comment un flux de travail collaboratif avec GitLab peut soutenir le développement et une démarche CI/CD.
 
 <a id="technical-decisions"></a>
 ## Technical decisions / Choix techniques
 
 **🇬🇧 EN**
-Python and Pyglet handle the desktop window, rendering, input, timing and audio; NumPy supports weighted thread selection, although the active game flow currently registers a single random thread. Cards and their effects are stored in a semicolon-separated CSV so game content can be edited separately from rendering code. The code is split into modules for cards, menus, statistics, selection and event handling. A shared configuration module simplified coordination in the prototype, at the cost of tighter coupling between those modules.
+Python and Pyglet handle the desktop window, rendering, input and audio. The code defines classes for cards, menus, statistics and narrative threads, while CSV keeps card descriptions and effects separate from rendering code. Images, fonts and sounds are organized as application assets, and JSON is used for a local save. A shared configuration module made state accessible across components during prototyping, with the trade-off of tighter coupling.
+
+GitLab is part of the project's collaborative development and CI/CD learning objectives. This GitHub mirror does not contain a `.gitlab-ci.yml` file, so it does not represent an executable GitLab pipeline.
 
 <br>
 
 **🇫🇷 FR**
-Python et Pyglet gèrent la fenêtre, le rendu, les entrées, le rythme de jeu et l'audio ; NumPy permet la sélection pondérée des fils narratifs, bien que le jeu actif n'enregistre actuellement qu'un seul fil aléatoire. Les cartes et leurs effets sont stockés dans un CSV séparé par des points-virgules, dissociant le contenu du code de rendu. Le code est réparti en modules pour les cartes, les menus, les statistiques, la sélection et les événements. Un module de configuration partagé a simplifié la coordination dans le prototype, au prix d'un couplage plus fort entre ces modules.
+Python et Pyglet gèrent la fenêtre de bureau, le rendu, les entrées et l’audio. Le code définit des classes pour les cartes, les menus, les statistiques et les fils narratifs ; le CSV sépare les descriptions et effets des cartes du code de rendu. Les images, polices et sons sont organisés comme ressources de l’application, et la sauvegarde locale utilise JSON. Un module de configuration partagé a rendu l’état accessible entre composants pendant le prototypage, au prix d’un couplage plus important.
+
+GitLab fait partie des objectifs d’apprentissage liés au développement collaboratif et au CI/CD. Ce miroir GitHub ne contient pas de fichier `.gitlab-ci.yml` et ne correspond donc pas à un pipeline GitLab exécutable.
 
 <a id="results-learnings"></a>
 ## Results & learnings / Résultats et apprentissages
 
 **🇬🇧 EN**
-- The repository contains a playable desktop prototype with a card interface, four tracked indicators, audio and menu flows.
-- Separating card data from the UI made it possible to edit and extend event content without rewriting the rendering code.
-- The project highlighted the trade-off between quick iteration through shared global state and the maintainability of more independent modules.
-- Cards currently come from a random pool; although the code includes classes for narrative threads, branching paths are not connected to the active game flow.
-- The local JSON save stores the current card, month counter and indicators, but not the full decision history or narrative progression. Completing and validating narrative paths and broadening save coverage are possible next steps.
+- The repository brings together a Python/Pyglet desktop prototype and its design and planning documents.
+- Separating card data and multimedia assets from application code supports content updates without rewriting the interface.
+- The class and module structure provided practical experience with object-oriented design and component interactions.
+- Shared configuration helped prototype coordination but highlighted the maintainability cost of coupling.
+- The project introduced collaborative planning and version-control practices, alongside CI/CD concepts in a GitLab context.
 
 <br>
 
 **🇫🇷 FR**
-- Le dépôt contient un prototype de bureau jouable avec une interface à cartes, quatre indicateurs, de l'audio et plusieurs menus.
-- La séparation des données de cartes et de l'interface permet de modifier et d'enrichir les événements sans réécrire le code de rendu.
-- Le projet a mis en évidence le compromis entre la rapidité d'itération permise par un état global partagé et la maintenabilité de modules plus indépendants.
-- Les cartes proviennent actuellement d'un pool aléatoire ; bien que le code comporte des classes pour les fils narratifs, les parcours à embranchements ne sont pas reliés au déroulement actif du jeu.
-- La sauvegarde JSON locale conserve la carte courante, le compteur de mois et les indicateurs, mais pas l'historique complet des décisions ni la progression narrative. Compléter et valider les parcours narratifs, puis étendre la sauvegarde, sont des pistes d'évolution.
+- Le dépôt rassemble un prototype de bureau Python/Pyglet ainsi que ses documents de conception et de planification.
+- La séparation des données de cartes et des ressources multimédias du code facilite les mises à jour de contenu sans réécrire l’interface.
+- La structure en classes et modules a permis de mettre en pratique la conception orientée objet et les interactions entre composants.
+- La configuration partagée a facilité le prototypage, tout en mettant en évidence le coût du couplage pour la maintenabilité.
+- Le projet a permis d’aborder la planification collaborative et le versionnement, ainsi que les concepts de CI/CD dans un contexte GitLab.
 
 <a id="getting-started"></a>
 ## Getting started
@@ -96,7 +100,7 @@ The repository does not currently provide a dependency lockfile or pinned packag
 
 ### Install and run / Installer et lancer
 
-Run the game from `src/`, which is the working directory expected by its relative paths to images, sounds and card data:
+Run the prototype from `src/`, which is the working directory expected by its relative paths to images, sounds and card data:
 
 ```bash
 cd src
@@ -104,16 +108,14 @@ python -m pip install pyglet numpy
 python main.py
 ```
 
-From the main menu, select **Jouer**, then drag a card left or right to make a decision.
-
 <a id="project-resources"></a>
-## Project resources
+## Project resources / Ressources du projet
 
 **🇬🇧 EN**
-The [UML design document](UML/REIGNIB_presentation.pdf) records the original design work. Current project tasks are tracked in [GitHub Issues](https://github.com/mlmdc/S6_CPO_Game/issues).
+The [UML design document](UML/REIGNIB_presentation.pdf) and [Gantt planning chart](UML/gantt.png) record design and project-planning work. The original [GitLab project history](https://git.enib.fr/y0lagadi/CPO_02_Groupe2) provides further context on the collaborative workflow. Current repository tasks are tracked in [GitHub Issues](https://github.com/mlmdc/S6_CPO_Game/issues).
 
 **🇫🇷 FR**
-Le [dossier de conception UML](UML/REIGNIB_presentation.pdf) présente le travail de conception initial. Les tâches actuelles sont suivies dans les [issues GitHub](https://github.com/mlmdc/S6_CPO_Game/issues).
+Le [dossier de conception UML](UML/REIGNIB_presentation.pdf) et le [planning Gantt](UML/gantt.png) présentent le travail de conception et de planification. L’[historique du projet sur GitLab](https://git.enib.fr/y0lagadi/CPO_02_Groupe2) apporte un complément de contexte sur le travail collaboratif. Les tâches du dépôt actuel sont suivies dans les [issues GitHub](https://github.com/mlmdc/S6_CPO_Game/issues).
 
 ### Contributors / Contributeurs
 
@@ -123,5 +125,6 @@ Le [dossier de conception UML](UML/REIGNIB_presentation.pdf) présente le travai
 - LAGADIC Youenn — [y0lagadi@enib.fr](mailto:y0lagadi@enib.fr)
 
 <a id="license"></a>
-## License 
+## License / Licence
 This project is licensed under the [MIT License](LICENSE).<br>
+Ce projet est distribué sous licence [MIT](LICENSE).
