@@ -1,11 +1,13 @@
-# Reignib
+<p align="center">
+  <img src="src/reignib_project_icon.png" alt="Paysage d'exemple dans le jeu." width="70%">
+</p>
 
- **🇬🇧 EN** - A student software project exploring object-oriented and full-stack development, multimedia data management and collaborative workflows.
- **🇫🇷 FR** - Un projet étudiant explorant la programmation orientée objet, le développement full-stack, la gestion de données multimédias et le travail collaboratif.
+<h1 align="center">Reignib</h1>
 
-![Reignib project artwork](src/png/main_paysage.png)
-
-**Python · Pyglet · Student software project**
+<p align="left">
+  <strong>🇬🇧 EN - </strong> A student software project exploring object-oriented and full-stack development, multimedia data management and collaborative workflows.<br>
+  <strong>🇫🇷 FR - </strong> Un projet étudiant explorant la programmation orientée objet, le développement full-stack, la gestion de données multimédias et le travail collaboratif.
+</p>
 
 [← Back to portfolio](https://mlmdc.github.io/mlmdc_portfolio/) · [Contents / Sommaire](#table-of-contents-sommaire)
 
